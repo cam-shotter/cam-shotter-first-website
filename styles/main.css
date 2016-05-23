@@ -1,13 +1,15 @@
-  background-color: #eeeeee;
+.firstdiv {
+  background-color: #ff0000;
+}
 
-  .heading {
-    font-weight: bold;
-    color: #444444;
-  }
+.heading {
+  color: #444;
+  font-weight: bold;
+}
 
-  .blog-link {
-    color: #666666;
-  }
+.blog-link {
+  color: #666;
+}
 
 
 
