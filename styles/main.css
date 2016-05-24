@@ -11,13 +11,14 @@ body {
 
 .firstdiv {
   margin-left: 30%;
+  margin-top: 10px;
 }
 
 .heading {
   color: #eee;
   font-weight: bold;
-  margin: 0 0 10px 30%;
-  text-align: center;
+  margin: 0 0 0 30%;
+  padding-top: 5px;
 }
 
 .blog-link {
