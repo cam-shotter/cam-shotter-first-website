@@ -16,11 +16,14 @@ body {
 .heading {
   color: #eee;
   font-weight: bold;
+  margin: 0 0 10px 30%;
+  text-align: center;
 }
 
 .blog-link {
   color: #666;
   font-size: 1.2em;
+  margin-top: 10px;
 }
 
 
