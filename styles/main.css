@@ -1,16 +1,20 @@
 body {
   background-color: #eee;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.headerdiv {
+.wrapper {
+  min-height:100%;
+  position:relative;
+}
+
+.header {
   height: 50px;
   width: 100%;
   background-color: #444;
   border-radius: 6px;
-}
-
-.firstdiv {
-  margin: 10px 30% 40% 30%;
 }
 
 .heading {
@@ -20,20 +24,27 @@ body {
   padding-top: 5px;
 }
 
+.content {
+  padding-bottom:50px;
+}
+
 .blog-link {
   color: #666;
   font-size: 1.2em;
   margin-top: 10px;
 }
 
-.footerdiv {
-  height: 50px;
-  width: 100%;
+.footer {
   background-color: #444;
   border-radius: 6px;
+  bottom: 0;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  width: 100%;
 }
 
-.homelink {
+.home-link {
   color: #eee;
   margin: 0 30%;
 }
