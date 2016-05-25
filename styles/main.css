@@ -42,7 +42,8 @@ h2 {
   text-decoration: none;
 }
 
-.blog-link :hover {
+.blog-link a:hover {
+  font-weight: bold;
   text-decoration: underline;
 }
 
@@ -61,6 +62,12 @@ h2 {
   margin: 0 30%;
   padding-left: 10px;
   position: relative;
+  text-decoration: none;
+}
+
+.home-link a:hover {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 
