@@ -1,5 +1,6 @@
 body {
   background-color: #eee;
+  font-family: Arial, Helvetica, sans-serif;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -7,10 +8,6 @@ body {
 
 h2 {
   text-decoration: underline;
-}
-
-p {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
@@ -29,7 +26,7 @@ p {
   color: #eee;
   font-weight: bold;
   margin: 0 30%;
-  padding-top: 5px;
+  padding: 5px 12px;
 }
 
 .content {
@@ -40,14 +37,13 @@ p {
 }
 
 .blog-link {
-  color: #ddd;
+  color: #222;
   font-size: 1.2em;
   text-decoration: none;
+}
 
-  hover {
-    text-decoration: underline;
-    font-weight: bold;
-  }
+.blog-link :hover {
+  text-decoration: underline;
 }
 
 .footer {
@@ -63,6 +59,7 @@ p {
   bottom: -15px;
   color: #eee;
   margin: 0 30%;
+  padding-left: 10px;
   position: relative;
 }
 
