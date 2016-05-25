@@ -29,6 +29,7 @@ h2 {
 .content {
   padding-bottom:50px;
   margin: 10px 30%;
+  background-image: url(../images/street.jpg);
 }
 
 .blog-link {
