@@ -12,18 +12,14 @@ h2 {
 .wrapper {
   background-image: url('../images/street.jpg');
   height: 100vh;
-
-  img {
-    filter: alpha(opacity = 40); /* For IE8 and earlier */
-    opacity: .4;
-  }
 }
 
 
 
 .header {
-  background-color: #444;
+  background-color: #222;
   height: 50px;
+  position: fixed;
   width: 100%;
 }
 
@@ -35,9 +31,9 @@ h2 {
 }
 
 .content {
-  background-color: #444;
+  background-color: #ccc;
   margin: 10px 30%;
-  padding-bottom: 50px;
+  padding: 30px 20px;
 }
 
 .blog-link {
@@ -46,11 +42,11 @@ h2 {
 }
 
 .footer {
-  background: #444;
+  background: #222;
   bottom: 0;
   height: 50px;
   left: 0;
-  position: absolute;
+  position: fixed;
   width: 100%;
 }
 
