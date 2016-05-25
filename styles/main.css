@@ -5,6 +5,10 @@ body {
   padding: 0;
 }
 
+h2 {
+  text-decoration: underline;
+}
+
 .wrapper {
   min-height:100%;
 }
@@ -13,7 +17,6 @@ body {
   height: 50px;
   width: 100%;
   background-color: #444;
-  border-radius: 6px;
 }
 
 .heading {
@@ -36,7 +39,6 @@ body {
 
 .footer {
   background: #444;
-  border-radius: 6px;
   bottom: 0;
   height: 50px;
   left: 0;
