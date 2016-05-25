@@ -11,7 +11,7 @@ h2 {
 
 .wrapper {
   background-image: url('../images/street.jpg');
-  height: 100vh;
+  min-height: 100vh;
 }
 
 
@@ -32,8 +32,9 @@ h2 {
 
 .content {
   background-color: #ccc;
-  margin: 10px 30%;
-  padding: 30px 20px;
+  margin: 0 30%;
+  min-height: 85vh;
+  padding: 50px 20px;
 }
 
 .blog-link {
@@ -51,8 +52,10 @@ h2 {
 }
 
 .home-link {
+  bottom: -15px;
   color: #eee;
   margin: 0 30%;
+  position: relative;
 }
 
 
