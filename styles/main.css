@@ -11,7 +11,7 @@ h2 {
 
 .wrapper {
   background-image: url('../images/street.jpg');
-  min-height: 100%;
+  height: 100vh;
 
   img {
     filter: alpha(opacity = 40); /* For IE8 and earlier */
