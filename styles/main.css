@@ -10,7 +10,7 @@ h2 {
 }
 
 .wrapper {
-  background-image: url('../images/street.jpg') no-repeat center;
+  background-image: url('../images/street.jpg');
   min-height: 100%;
 
   img {
@@ -35,14 +35,14 @@ h2 {
 }
 
 .content {
+  background-color: #444;
   margin: 10px 30%;
   padding-bottom: 50px;
 }
 
 .blog-link {
-  color: #666;
+  color: #ddd;
   font-size: 1.2em;
-  margin-top: 10px;
 }
 
 .footer {
