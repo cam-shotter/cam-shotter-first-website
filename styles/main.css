@@ -11,7 +11,7 @@ h2 {
 }
 
 .wrapper {
-  background-image: url('../images/street.jpg');
+  background-image: url('../images/barn.jpg');
   min-height: 100vh;
 }
 
@@ -26,6 +26,7 @@ h2 {
   color: #eee;
   font-weight: bold;
   margin: 0 30%;
+  min-width: 200px;
   padding: 5px 12px;
 }
 
@@ -33,6 +34,7 @@ h2 {
   background-color: #ccc;
   margin: 0 30%;
   min-height: 85vh;
+  min-width: 200px;
   padding: 50px 20px;
 }
 
@@ -42,16 +44,12 @@ h2 {
   text-decoration: none;
 }
 
-.blog-link a:hover {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
 .footer {
   background: #222;
   bottom: 0;
   height: 50px;
   left: 0;
+  min-width: 200px;
   position: fixed;
   width: 100%;
 }
@@ -65,10 +63,6 @@ h2 {
   text-decoration: none;
 }
 
-.home-link a:hover {
-  font-weight: bold;
-  text-decoration: underline;
-}
 
 
 
