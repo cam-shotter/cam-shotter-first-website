@@ -23,11 +23,48 @@ h2 {
 }
 
 .heading {
+  font-size: 1.7em;
+  padding: 4px 10px;
+}
+
+.nav-menu {
   color: #eee;
   font-weight: bold;
   margin: 0 30%;
   min-width: 200px;
-  padding: 5px 12px;
+  padding: 5px 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+li {
+  border-right: 1px solid #bbb;
+  float: left;
+}
+
+li:last-child {
+  border-right: 0;
+}
+
+li a {
+  color: #ddd;
+  display: block;
+  padding: 11px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover:not(.active):not(.heading) {
+  background-color: #E67C0B;
+}
+
+.active {
+  background-color: #4CAF50;
 }
 
 .content {
