@@ -38,6 +38,10 @@ h2 {
   padding: 50px 20px;
 }
 
+.blog-div {
+  padding-left: 20px;
+}
+
 .blog-link {
   color: #222;
   font-size: 1.2em;
