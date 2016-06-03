@@ -1,0 +1,18 @@
+.blog-heading {
+  background-image: url("http://placekitten.com/960/250");
+  height: 250px;
+}
+
+.blog-social-links {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.blog-showcase {
+
+}
+
+.project-showcase {
+  
+}
