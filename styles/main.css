@@ -1,11 +1,13 @@
 body {
   font-family: 'Indie Flower', cursive;
   color: #75888C;
+  background-color: #0C090A
 }
 
 body a {
   color: #8C7A76;
 }
+
 
 .blog-heading {
   background-image: url("http://placekitten.com/960/250");
