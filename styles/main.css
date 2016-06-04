@@ -1,13 +1,16 @@
 body {
   font-family: 'Indie Flower', cursive;
   color: #75888C;
-  background-color: #0C090A
+  background-color: #0C090A;
 }
 
 body a {
-  color: #8C7A76;
+  color: #0C090A;
 }
 
+.navbar-container {
+  background-color: #D2691E; 
+}
 
 .blog-heading {
   background-image: url("http://placekitten.com/960/250");
@@ -23,7 +26,7 @@ body a {
 .blog-showcase {
   width:98%;
   height:100px;
-  background:#25383C;
+  background:#D2691E;
   float:left;
   margin:2px;
 }
@@ -31,9 +34,13 @@ body a {
 .project-showcase {
   width:44%;
   height:100px;
-  background:#3D2A26;
+  background:#D2691E;
   float:left;
   margin:2px;
+}
+
+.footer-container {
+  background-color: #D2691E; 
 }
 
 .rotated-banner {
