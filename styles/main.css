@@ -1,5 +1,10 @@
 body {
   font-family: 'Indie Flower', cursive;
+  color: #75888C;
+}
+
+body a {
+  color: #8C7A76;
 }
 
 .blog-heading {
@@ -14,15 +19,19 @@ body {
 }
 
 .blog-showcase {
-
+  width:98%;
+  height:100px;
+  background:#25383C;
+  float:left;
+  margin:2px;
 }
 
 .project-showcase {
-
-}
-
-.blog-date {
-  font-style: underline !important;
+  width:44%;
+  height:100px;
+  background:#3D2A26;
+  float:left;
+  margin:2px;
 }
 
 .rotated-banner {
@@ -30,3 +39,4 @@ body {
     -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
     transform: rotate(-7deg);
 }
+
