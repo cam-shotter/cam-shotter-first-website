@@ -24,3 +24,9 @@ body {
 .blog-date {
   font-style: underline !important;
 }
+
+.rotated-banner {
+  -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
