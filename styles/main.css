@@ -8,9 +8,15 @@ body a {
   color: #0C090A;
 }
 
+.container {
+  border: 1px solid #666;
+}
+
 .navbar-container {
   background-color: #D2691E; 
 }
+
+
 
 .blog-heading {
   background-image: url("http://placekitten.com/960/250");
@@ -23,24 +29,12 @@ body a {
   right: 0px;
 }
 
-.blog-showcase {
-  width:98%;
-  height:100px;
-  background:#D2691E;
+.showcase {
+  width:32.6%;
+  height:200px;
+  background:#ddd;
   float:left;
-  margin:2px;
-}
-
-.project-showcase {
-  width:44%;
-  height:100px;
-  background:#D2691E;
-  float:left;
-  margin:2px;
-}
-
-.footer-container {
-  background-color: #D2691E; 
+  margin:1px;
 }
 
 .rotated-banner {
@@ -49,3 +43,33 @@ body a {
     transform: rotate(-7deg);
 }
 
+.footer-container {
+  background-color: #D2691E; 
+}
+
+25383C, 3D2A26
+
+.flex-container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.flex-container > :nth-child(3n + 1) { order: 1; } /* 1st column */
+.flex-container > :nth-child(3n + 2) { order: 2; } /* 2nd column */
+.flex-container > :nth-child(3n + 3) { order: 3; } /* 3rd column */
+
+.flex-container > :nth-child(-n + 3) {
+  page-break-before: always; /* CSS 2.1 syntax */
+  break-before: always;  /* New syntax */
+}
+
+/* The following is optional */
+.flex-container > div {
+  background: #666;
+  color: #fff;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
