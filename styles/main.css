@@ -1,7 +1,7 @@
 body {
   font-family: 'Indie Flower', cursive;
   color: #75888C;
-  background-color: #0C090A;
+  background-color: #222;
 }
 
 body a {
@@ -10,10 +10,11 @@ body a {
 
 .container {
   border: 1px solid #666;
+  background-color: #FFDAB9;
 }
 
 .navbar-container {
-  background-color: #D2691E; 
+  background-color: #E57255; 
 }
 
 
@@ -30,8 +31,8 @@ body a {
 }
 
 .showcase {
-  width:32.6%;
-  height:200px;
+  width:32%;
+  height:100px;
   background:#ddd;
   float:left;
   margin:1px;
@@ -44,7 +45,7 @@ body a {
 }
 
 .footer-container {
-  background-color: #D2691E; 
+  background-color: #E57255; 
 }
 
 25383C, 3D2A26
@@ -65,11 +66,12 @@ body a {
 
 /* The following is optional */
 .flex-container > div {
-  background: #666;
+  background-color: #FFDAB9;
+  
   color: #fff;
   margin: 3px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  max-width: 99%;  
 }
