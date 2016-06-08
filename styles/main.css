@@ -1,7 +1,8 @@
 body {
   font-family: 'Indie Flower', cursive;
-  color: #75888C;
+  color: #576A6E;
   background-color: #222;
+  font-weight: 600;
 }
 
 body a {
@@ -17,7 +18,10 @@ body a {
   background-color: #E57255; 
 }
 
-
+.my-logo {
+  height: 10%;
+  padding-left: 10px;
+}
 
 .blog-heading {
   background-image: url("http://placekitten.com/960/250");
@@ -28,6 +32,10 @@ body a {
   position: absolute;
   bottom: 0px;
   right: 0px;
+}
+
+.blog-date {
+  padding-left: 10px;
 }
 
 .showcase {
